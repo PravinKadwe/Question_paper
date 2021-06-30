@@ -1,0 +1,41 @@
+.coursetable{
+    margin: auto;
+    min-width: 400px;
+    width: 100%;
+    background-color: #BBD8FF;
+}
+
+thead{
+    background-color: #008CBA;
+    color: #ffff;
+}
+
+tfoot{
+    background-color: #bbd8ff;
+    color: #ffff;
+}
+
+tfoot td {
+    color: #ffff;
+}
+
+tbody{
+    background-color: aliceblue;
+    color: #ffff;
+}
+
+td{
+    color: black;
+    text-align: center;
+}
+
+#title{
+    text-align: left;
+    color: rgb(159, 0, 233);
+    font-weight: bold;
+}
+
+.coursetable th, 
+.coursetable td {
+    padding: 10px 15px;
+}

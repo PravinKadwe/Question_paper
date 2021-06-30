@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    border: 3px solid #1D2939;
+    margin: 4px 300px 10px 300px;
+}
+        
+        input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+
+        .container {
+            color: #303030;
+            padding: 16px;
+            font-weight: bold;
+            background-color: #E5E5E5;
+        }
+        

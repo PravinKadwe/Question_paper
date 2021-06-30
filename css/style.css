@@ -1,0 +1,34 @@
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button:hover {
+    opacity: 0.8;
+  }
+
+  .btn {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 25px;
+    float: right;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }
+
+
+body{
+    height: auto;  
+}

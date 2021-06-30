@@ -1,0 +1,47 @@
+.coursetable{
+    margin: auto;
+    width: 100%;
+    border: 2px solid black;
+    background-color: #BBD8FF;
+}
+
+thead{
+    background-color: #008CBA;
+    color: #ffff;
+}
+
+
+tbody{
+    background-color: aliceblue;
+    color: rgb(28, 28, 28);
+}
+
+
+#co{
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#CO{
+    padding: 13px 10px;
+    margin: 5px 30px 10px 50px;
+}
+
+.btn {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px 25px;
+    float: right;
+    cursor: pointer;
+  }
+
+  .btn:hover {
+    opacity: 0.8;
+  }

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+        font-family: Arial;
+        }
+
+        form{border: 3px solid #1D2939;}
+
+        input[type=text] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          display: inline-block;
+          border: 1px solid #ccc;
+          box-sizing: border-box;
+        }
+        
+        button {
+          background-color: #4CAF50;
+          color: white;
+          padding: 14px 20px;
+          margin: 8px 0;
+          border: none;
+          cursor: pointer;
+          width: 100%;
+        }
+        
+        button:hover {
+          opacity: 0.8;
+        }
+        
+        .container {
+            color: #303030;
+            padding: 16px;
+            font-weight: bold;
+            background-color: #E5E5E5;
+        }
+        
+        .cent{
+            margin: 4px 300px 0 300px;
+        }
+    </style>
+</head>
+    <body style="background-color: #F0FFFF;">
+        <div class="cent">
+            <form action="getinput.php" method="post" enctype="multipart/form-data">
+                <div class="container" style="background-color:#1D2939">
+                    <h2 style="text-align: center; color: #F0FFFF;">Creat Course And Examination</h2>
+                </div>
+                <div class="container">
+                    <div class="form-group">
+                        <label for="course_code">Course code</label>
+                        <input type="text" class="form-control" style="text-transform: uppercase;" id="course_code" name="course_code" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="course_title">Course title</label>
+                        <input type="text" class="form-control" style="text-transform: capitalize;" id="course_title" name="course_title" required>
+                    </div>
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="form-group" style="margin: 4px 0 4px 0;">
+                                    <label for="course_credit">Course credit</label>
+                                    <input type="number" class="form-control" id="course_credit" name="course_credit" required>
+                                </div>  
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <label for="course_type">Course type</label>
+                                    <input type="text" class="form-control" style="text-transform: uppercase;" id="course_type" name="course_type" required>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <label for="class">Class code</label>
+                                    <input type="text" class="form-control" style="text-transform: uppercase;" id="class" name="class" required>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="form-group">
+                        <label for="department">Department</label>
+                        <input type="text" class="form-control" style="text-transform: capitalize;" id="department" name="department" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="institution_name">Institution Name</label>
+                        <input type="text" class="form-control" style="text-transform: capitalize;" id="institution_name" name="institution_name" required>
+                    </div>
+                    
+                    <table>
+                        <tr>
+                            <td>
+                                <div class="form-group">
+                                    <label for="semester">Semester</label>
+                                    <input type="text" class="form-control" id="semester" name="semester" required>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <label for="division">Division</label>
+                                    <input type="text" class="form-control" style="text-transform: uppercase;" id="division" name="division" required>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="form-group">
+                                    <label for="batch">Batch</label>
+                                    <input type="text" class="form-control" style="text-transform: uppercase;" id="batch" name="batch" required>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <div class="form-group">
+                        <label for="academic_year">Academic year</label>
+                        <input type="text" class="form-control" id="academic_year" name="academic_year" required>
+                    </div>
+                    <br>
+                <center>
+                    <div class="form-group" >
+                        <label for="image">Institution Logo</label>
+                        <input type="file" class="form-control" id="image" name="image" required>
+                      <!--  <p style="font-size: x-small; color: red;">*For good quality output upload .jpg files only.</p> -->
+                    </div>
+                </center>
+                
+                <br>
+                    <button type="submit" style="font-weight: bold; font-size: medium;" onclick="window.location.href='index.php'">Submit</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
